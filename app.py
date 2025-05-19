@@ -4,7 +4,7 @@ from transformers import pipeline
 translator = pipeline("translation", model="Helsinki-NLP/opus-mt-id-en")
 #UI Streamlit
 st.title("Translator Bahasa Indonesia ke Inggris")
-st.write("masukan teks yang ingin diterjemahkan")
+#st.write("masukan teks yang ingin diterjemahkan")
 
 text_input = st.text_area("tulis kalimat bahasa indonesia disini")
 
